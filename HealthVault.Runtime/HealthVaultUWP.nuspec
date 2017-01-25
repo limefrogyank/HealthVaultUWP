@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HealthVault.UWP</id>
+    <version>1.0.0</version>
+    <title>HealthVault.UWP</title>
+    <authors>Lee McPherson</authors>
+    <owners>Lee McPherson</owners>
+    <licenseUrl>https://raw.githubusercontent.com/limefrogyank/HealthVaultUWP/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/limefrogyank/HealthVaultUWP</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Clone of "HealthVault Library for Windows 8" converted to UWP</description>
+    <releaseNotes>Converted "HealthVault Library for Windows 8" to working UWP project</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>HealthVault UWP</tags>
+  </metadata>
+
+  <files>
+    <file src="bin\Debug\HealthVault.winmd" target="lib\uap10.0"/>
+  <file src="bin\Debug\HealthVault.xml" target="lib\uap10.0"/>
+  <file src="..\HealthVault.Foundation\bin\Debug\HealthVault.Foundation.dll" target="lib\uap10.0"/>
+  <file src="..\HealthVault.Foundation\bin\Debug\HealthVault.Foundation.XML" target="lib\uap10.0"/>
+
+    <file src="bin\Release\HealthVault.winmd" target="lib\uap10.0"/>
+    <file src="bin\Release\HealthVault.xml" target="lib\uap10.0"/>
+    <file src="..\HealthVault.Foundation\bin\Release\HealthVault.Foundation.dll" target="lib\uap10.0"/>
+    <file src="..\HealthVault.Foundation\bin\Release\HealthVault.Foundation.XML" target="lib\uap10.0"/>
+
+    <!-- DLLs and resources -->
+    <file src="bin\ARM\Debug\HealthVault.Foundation.dll" target="runtimes\win10-arm\managed"/>
+    <file src="bin\ARM\Debug\HealthVault.Foundation.pri" target="runtimes\win10-arm\managed"/>
+    <file src="bin\ARM\Debug\HealthVault.winmd" target="runtimes\win10-arm\managed"/>
+    <file src="bin\ARM\Debug\HealthVault.pri" target="runtimes\win10-arm\managed"/>
+
+    <file src="bin\x64\Debug\HealthVault.Foundation.dll" target="runtimes\win10-x64\managed"/>
+    <file src="bin\x64\Debug\HealthVault.Foundation.pri" target="runtimes\win10-x64\managed"/>
+    <file src="bin\x64\Debug\HealthVault.winmd" target="runtimes\win10-x64\managed"/>
+    <file src="bin\x64\Debug\HealthVault.pri" target="runtimes\win10-x64\managed"/>
+
+    <file src="bin\x86\Debug\HealthVault.Foundation.dll" target="runtimes\win10-x86\managed"/>
+    <file src="bin\x86\Debug\HealthVault.Foundation.pri" target="runtimes\win10-x86\managed"/>
+    <file src="bin\x86\Debug\HealthVault.winmd" target="runtimes\win10-x86\managed"/>
+    <file src="bin\x86\Debug\HealthVault.pri" target="runtimes\win10-x86\managed"/>
+
+    <file src="bin\ARM\Release\HealthVault.Foundation.dll" target="runtimes\win10-arm\managed"/>
+    <file src="bin\ARM\Release\HealthVault.Foundation.pri" target="runtimes\win10-arm\managed"/>
+    <file src="bin\ARM\Release\HealthVault.winmd" target="runtimes\win10-arm\managed"/>
+    <file src="bin\ARM\Release\HealthVault.pri" target="runtimes\win10-arm\managed"/>
+
+    <file src="bin\x64\Release\HealthVault.Foundation.dll" target="runtimes\win10-x64\managed"/>
+    <file src="bin\x64\Release\HealthVault.Foundation.pri" target="runtimes\win10-x64\managed"/>
+    <file src="bin\x64\Release\HealthVault.winmd" target="runtimes\win10-x64\managed"/>
+    <file src="bin\x64\Release\HealthVault.pri" target="runtimes\win10-x64\managed"/>
+
+    <file src="bin\x86\Release\HealthVault.Foundation.dll" target="runtimes\win10-x86\managed"/>
+    <file src="bin\x86\Release\HealthVault.Foundation.pri" target="runtimes\win10-x86\managed"/>
+    <file src="bin\x86\Release\HealthVault.winmd" target="runtimes\win10-x86\managed"/>
+    <file src="bin\x86\Release\HealthVault.pri" target="runtimes\win10-x86\managed"/>
+
+
+  </files>
+
+ 
+</package>
