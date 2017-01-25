@@ -13,7 +13,7 @@ namespace HealthVault.Types
         }
 
         public Date(DateTimeOffset date)
-            : this(date.Year, date.Month, date.Day)
+            : this(date.LocalDateTime.Year, date.LocalDateTime.Month, date.LocalDateTime.Day)
         {
         }
 

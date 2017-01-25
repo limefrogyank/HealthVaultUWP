@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>HealthVault.UWP</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>HealthVault.UWP</title>
     <authors>Lee McPherson</authors>
     <owners>Lee McPherson</owners>
@@ -11,21 +11,21 @@
     <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Clone of "HealthVault Library for Windows 8" converted to UWP</description>
-    <releaseNotes>Converted "HealthVault Library for Windows 8" to working UWP project</releaseNotes>
+    <releaseNotes>Fixed bug in StructuredDateTime constructor where it did not use local date time (since it doesn't record timezone) from DateTimeOffset</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>HealthVault UWP</tags>
   </metadata>
 
   <files>
     <file src="bin\Debug\HealthVault.winmd" target="lib\uap10.0"/>
-  <file src="bin\Debug\HealthVault.xml" target="lib\uap10.0"/>
+  <!--<file src="bin\Debug\HealthVault.xml" target="lib\uap10.0"/>-->
   <file src="..\HealthVault.Foundation\bin\Debug\HealthVault.Foundation.dll" target="lib\uap10.0"/>
-  <file src="..\HealthVault.Foundation\bin\Debug\HealthVault.Foundation.XML" target="lib\uap10.0"/>
+  <!--<file src="..\HealthVault.Foundation\bin\Debug\HealthVault.Foundation.XML" target="lib\uap10.0"/>-->
 
     <file src="bin\Release\HealthVault.winmd" target="lib\uap10.0"/>
-    <file src="bin\Release\HealthVault.xml" target="lib\uap10.0"/>
+    <!--<file src="bin\Release\HealthVault.xml" target="lib\uap10.0"/>-->
     <file src="..\HealthVault.Foundation\bin\Release\HealthVault.Foundation.dll" target="lib\uap10.0"/>
-    <file src="..\HealthVault.Foundation\bin\Release\HealthVault.Foundation.XML" target="lib\uap10.0"/>
+    <!--<file src="..\HealthVault.Foundation\bin\Release\HealthVault.Foundation.XML" target="lib\uap10.0"/>-->
 
     <!-- DLLs and resources -->
     <file src="bin\ARM\Debug\HealthVault.Foundation.dll" target="runtimes\win10-arm\managed"/>

@@ -13,7 +13,7 @@ namespace HealthVault.Types
         }
 
         public Time(DateTimeOffset dt)
-            : this(dt.Hour, dt.Minute, dt.Second, dt.Millisecond)
+            : this(dt.LocalDateTime.Hour, dt.LocalDateTime.Minute, dt.LocalDateTime.Second, dt.LocalDateTime.Millisecond)
         {
         }
 
