@@ -7,5 +7,7 @@ bugs that wouldn't allow the source to compile and I fixed those.
 
 For now, you can clone this repository into your project, add the two projects and reference them into your app and it will work.
 
+There is now also a NuGet package available.  Search for HealthVault.UWP
+
 Documentation on using this library is fairly non-existent but if you pore through the Javascript sample provided in the original
 repository, you can figure some things out.  
